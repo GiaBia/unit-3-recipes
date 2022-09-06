@@ -1,0 +1,35 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(80, 80, 80);
+    align-items: center;
+    padding: 10px;
+}
+
+h5 {
+    color: whitesmoke;
+    font-size: larger;
+}
+
+.socials {
+    align-items: center;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icons svg {
+    background-color: hsl(180, 22%, 45%);
+    margin: 5px;
+    border-radius: 50px;
+}
+
+.icons {
+    padding-top: 10px;
+}
+
+svg {
+    padding: 10px;
+    margin-right: 50px;
+}
